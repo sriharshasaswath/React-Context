@@ -12,12 +12,11 @@ class App extends Component {
   }
 
   render() {
-    const {activeLanguage} = this.state
     return (
       <>
         <Header />
-        <LandingSection activeLanguage={activeLanguage} />
-        <FeaturesSection activeLanguage={activeLanguage} />
+        <LandingSection />
+        <FeaturesSection />
       </>
     )
   }
